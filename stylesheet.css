@@ -180,6 +180,8 @@ header {
 .profile{
   display: flex;
   height: 500px;
+  justify-content: center;
+  align-items: center;
  
 }
 
@@ -191,7 +193,6 @@ header {
 
 .profile .name{
   font-size: 60px;
-  padding-top: 100px;
   line-height: 100px;
   text-align: center;
   color: rgb(4, 4, 85);
@@ -201,27 +202,25 @@ header {
 .profile-two{
   display: flex;
   height: 500px;
-  
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .profile-two img{
-  padding-top: 50px;
-  padding-left: 50px;
   flex:1;
-  
+  padding-left: 30px;
 }
-
 
 .career{
   flex:4;
-  
 }
 
 .career p{
   font-size: 20px;
   letter-spacing: 3px;
-  padding-left: 150px;
-  padding-top: 50px;
+  padding-left: 30px;
+  line-height: 70px;
 }
 
 .ensemble-wrapper{
@@ -249,17 +248,16 @@ header {
 
 .ensembles p{
   line-height: 40px;
-  padding-left: 100px;
-  padding-right: 100px;
   font-size: 25px;
   margin-bottom: 30px;
+  padding-left: 30px;
 }
 
 .ensembles h5{
   color:rgb(255, 115, 0);
-  padding-left: 100px;
   font-size: 20px;
   margin-top: 80px;
+  padding-left: 30px;
 }
 
 .ensemble-img{
@@ -283,8 +281,8 @@ header {
 table{
   border-collapse: collapse;
   border: solid 3px black;
-  width:100%;
-  
+  width:80%;
+  margin: 0 auto;
 }
 
 th,td{
@@ -337,13 +335,12 @@ th{
 }
 
 .myhome iframe{
-  width:40%;
+  width: 60%;
   height: 500px;
 }
 
 .myhome img{
-  width:400px;
-  height: 500px
+  height: 500px;
 }
 
 a {
