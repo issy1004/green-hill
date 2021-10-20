@@ -189,6 +189,7 @@ header {
   padding-bottom: 30px;
   padding-left: 50px;
   flex:1;
+  height: 70%;
 }
 
 .profile .name{
@@ -209,17 +210,20 @@ header {
 
 .profile-two img{
   flex:1;
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 70%;
 }
 
 .career{
-  flex:4;
+  flex:3.5;
 }
 
 .career p{
   font-size: 20px;
   letter-spacing: 3px;
   padding-left: 30px;
+  padding-right: 20px;
   line-height: 70px;
 }
 
@@ -251,6 +255,7 @@ header {
   font-size: 25px;
   margin-bottom: 30px;
   padding-left: 30px;
+  padding-right: 20px;
 }
 
 .ensembles h5{
@@ -258,6 +263,7 @@ header {
   font-size: 20px;
   margin-top: 80px;
   padding-left: 30px;
+  padding-right: 20px;
 }
 
 .ensemble-img{
