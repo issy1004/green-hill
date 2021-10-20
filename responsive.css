@@ -23,14 +23,6 @@
     text-align: left;
   }
 
-  .container-two h2{
-    font-size: 30px;
-    padding-top: 130px;
-    padding-right: -50px;
-    font-weight: bold;
-    color:rgb(4, 4, 85); 
-    text-align: center;
-  }
 
   .profile-wrapper{
     height: 1500px;
@@ -93,5 +85,88 @@
     right: 10px;
   }
 
+}
 
+
+@media(max-width:430px){
+  .container{
+    width: 100%;
+  }
+  
+  .header-logo h1{
+    font-size: 20px;
+  }
+
+  .container-one h2{
+    font-size: 24px;
+  }
+
+  .profile-title h2{
+    font-size: 30px;
+  }
+
+  .profile img{
+    padding-right: 50px;
+  }
+
+  .profile .name{
+    font-size: 20px;
+    line-height: 70px;
+  }
+
+  .career p{
+    font-size: 15px;
+  }
+
+  .ensemble-wrapper{
+    height: 1400px;
+  }
+
+  .ensemble-title h2{
+    font-size: 30px;
+  }
+
+  .ensembles p{
+    font-size: 15px;
+  }
+
+  .ensembles h5{
+    font-size: 15px;
+  }
+
+  .lesson-title h2{
+    font-size: 30px;
+  }
+
+  table{
+    width:95%;
+  }
+
+  th,td{
+    font-size: 15px;
+  }
+
+  .access-wrapper{
+    height: 800px;
+  }
+
+  .access-title h2{
+    font-size: 30px;
+  }
+
+  .access-root p{
+    font-size: 15px;
+  }
+
+  .myhome iframe{
+    height: 250px;
+  }
+
+  .myhome img{
+    display: none;
+  }
+
+  footer h2{
+    font-size: 20px;
+  }
 }
