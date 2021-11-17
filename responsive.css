@@ -105,8 +105,9 @@
     font-size: 30px;
   }
 
-  .profile img{
+  .profile .photo{
     padding-right: 50px;
+    height: 60%;
   }
 
   .profile .name{
