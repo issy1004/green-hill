@@ -190,6 +190,7 @@ header {
   padding-left: 50px;
   flex:1;
   height: 70%;
+
 }
 
 .profile .name{
@@ -209,21 +210,22 @@ header {
 }
 
 .profile-two img{
-  flex:1;
+  flex:0.7;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 30px;
   height: 70%;
 }
 
 .career{
-  flex:3.5;
+  flex:2.5;
+  padding-left: 30px;
+  margin-left: 50px;
+
 }
 
 .career p{
   font-size: 20px;
   letter-spacing: 3px;
-  padding-left: 30px;
-  padding-right: 20px;
   line-height: 70px;
 }
 
