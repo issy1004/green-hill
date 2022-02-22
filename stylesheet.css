@@ -116,7 +116,7 @@ body{
 
 
 .container{
-  width:75%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -185,7 +185,7 @@ header {
  
 }
 
-.profile .photo{
+.profile img{
   padding-bottom: 30px;
   padding-left: 50px;
   flex:1;
@@ -230,7 +230,7 @@ header {
 }
 
 .ensemble-wrapper{
-  height:1700px;
+  
   margin-top: 100px;
 }
 
@@ -268,10 +268,20 @@ header {
   padding-right: 20px;
 }
 
-.ensemble-img{
-  text-align: center;
-  padding-top: 100px;
+.ensemble-photo{
+  display: flex;
+  justify-content: space-evenly;
+  padding:100px 0;
+  margin: 50px 0;
+  background: rgba(255, 174, 0, 0.089);
 }
+
+
+
+.ensemble-photo video:hover{
+  cursor: pointer;
+}
+
 .lesson-wrapper{
   height: 700px;
 }
@@ -358,14 +368,18 @@ th{
 }
 
 .text-right a{
-  color:black;
-  opacity: 0.6;
+  color:#fff;
+  opacity: 0.7;
   position: absolute;
   bottom:3px;
   font-size: 20px;
+  background: #333;
+  padding:5px;
+  border-radius: 3px;
+  letter-spacing: 2px;
 }
 
-a:hover{
+.text-right a:hover{
   opacity: 1;
 }
 
