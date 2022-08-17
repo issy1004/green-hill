@@ -190,7 +190,7 @@ header {
   padding-left: 50px;
   flex:1;
   height: 70%;
-
+  object-fit: cover;
 }
 
 .profile .name{
@@ -214,6 +214,7 @@ header {
   padding-left: 50px;
   padding-right: 30px;
   height: 70%;
+  object-fit: cover;
 }
 
 .career{
@@ -266,6 +267,7 @@ header {
   margin-top: 80px;
   padding-left: 30px;
   padding-right: 20px;
+  
 }
 
 .ensemble-photo{
@@ -276,7 +278,14 @@ header {
   background: rgba(255, 174, 0, 0.089);
 }
 
+.ensemble-photo img{
+  object-fit: cover;
+  height: 400px;
+}
 
+.ensemble-photo video{
+  background-color: #000;
+}
 
 .ensemble-photo video:hover{
   cursor: pointer;
